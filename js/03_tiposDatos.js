@@ -1,3 +1,4 @@
+"use strict";
 // String
 var cadena = 'Denis Rocher';
 // number

@@ -1,3 +1,4 @@
+"use strict";
 /** DISTINTAS MANERAS DE DECLARAR FUNCIONES EN TYPESCRIPT, CON O SIN TIPADO FUERTE
  *  function name(param){}
  *
