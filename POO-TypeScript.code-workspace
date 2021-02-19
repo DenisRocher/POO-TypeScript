@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"powershell.codeFormatting.addWhitespaceAroundPipe": true
+		"powershell.codeFormatting.addWhitespaceAroundPipe": true,
+		"god.tsconfig": "./tsconfig.json"
 	}
 }
