@@ -26,6 +26,7 @@ function estampar(logo: String) {
 //class Camiseta{
 @estampar('Lacoste')
 class Camiseta implements CamisetaBase {
+  [x: string]: any;
   // Propiedades de la clase
   private color: string;
   private modelo: string;
@@ -81,8 +82,8 @@ console.log(camiseta, polera, polera.getMoneda());
 */
 
 var camiseta = new Camiseta('Blue', 'Manga Larga', 'Lacoste', 'L', 150000, 'CLP');
+camiseta.estampacion();
 console.log(camiseta);
-
 
 /** 
  *      HERENCIA DE CLASES

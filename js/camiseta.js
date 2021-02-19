@@ -87,6 +87,7 @@ console.log(camiseta, polera, polera.getMoneda());
 
 */
 var camiseta = new Camiseta('Blue', 'Manga Larga', 'Lacoste', 'L', 150000, 'CLP');
+camiseta.estampacion();
 console.log(camiseta);
 /**
  *      HERENCIA DE CLASES
