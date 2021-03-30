@@ -21,6 +21,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var Tienda;
+(function (Tienda) {
+    var Ropa = /** @class */ (function () {
+        function Ropa(titulo) {
+            this.titulo = titulo;
+            alert(titulo);
+        }
+        return Ropa;
+    }());
+    Tienda.Ropa = Ropa;
+    var informatica = /** @class */ (function () {
+        function informatica(titulo) {
+            this.titulo = titulo;
+            alert('Tienda de tecnologia: ' + titulo);
+        }
+        return informatica;
+    }());
+    Tienda.informatica = informatica;
+})(Tienda || (Tienda = {}));
+var informatica = Tienda.informatica;
+var cargarInformatica = new informatica('SuperTienda');
 function arranque(lanzar) {
     return function (target) {
         target.prototype.lanzamiento = function () {
